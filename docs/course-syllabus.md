@@ -20,15 +20,13 @@
 
 ## Learning objectives
 
-In this course you will gain data skills applicable to marketing. You will learn how to collect and analyze data and communicate your findings with SQL and Python.
+In this course you will gain data skills applicable to marketing. You will learn how to collect and analyze data and communicate your findings.
 
 By the end of the semester, you will be able to...
 
+- use methods like decision trees, deep learning, clustering and text mining to gain insights from data.
+
 - collect data with web scraping and web APIs.
-
-- use methods like clustering and text mining to gain insights from data.
-
-- make use of statistics and visuals to find and communicate insights with Python and SQL.
 
 - apply marketing metrics to evaluate marketing efforts.
 
@@ -74,14 +72,9 @@ AEs should be completed and **submitted individually**.
 (exams)=
 ### Exam
 
-There will be two E-exams.
+There will be one E-exam.
 
-Through this exams you have the opportunity to demonstrate what you've learned in the course.
-
-
-:::{Note}
-The exam will focus on the conceptual understanding of the content
-:::
+Through this exam you have the opportunity to demonstrate what you've learned in the course.
 
 More details about the exam will be given during the semester.
 
@@ -92,8 +85,8 @@ The final course grade will be calculated as follows:
 
 | Category              | Percentage      |
 |-----------------------|-----------------|
-| Application exercises | 30%             |
-| Exam 01               | 70%             |
+| Application exercises | 25%             |
+| Exam                  | 75%             |
 
 
 The final grade will be determined based on the following thresholds:
@@ -114,14 +107,6 @@ The final grade will be determined based on the following thresholds:
 | 5.0            | 0 - 14           |
 
 
-## Tips for success
-
-Your success on this course depends very much on you and the effort you put into it:
-
-1.  Complete all the preparation work before class.
-1.  Do the readings.
-1.  Do the application exercises. The earlier you start, the better. 
-1.  Don't procrastinate. If something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, and eventually you won't know where to begin asking questions. Don't let the week end with unanswered questions. 
 
 ## Course policies
 
