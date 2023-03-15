@@ -26,13 +26,14 @@
 
 Download Slides: [📑](https://drive.google.com/file/d/11IfR0Y7yiAxtKoUPG4Pz-8OcN9uhkX78/view?usp=sharing)
 
+[📑](https://drive.google.com/file/d/11IfR0Y7yiAxtKoUPG4Pz-8OcN9uhkX78/view?usp=sharing)
 
 ---
 
 (practice)=
 ## Practice
 
-None
+Data manipulation with pandas (Nr 3): [💻](../code/3-pandas-intro-short-c.ipynb)*
 
 ---
 
