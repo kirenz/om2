@@ -7,7 +7,7 @@
 |           | Day       | Time                  | Location    |
 |-----------|-----------|-------------------    |-------------|
 | Lecture   | Wednesday | 11:45 am - 13:15 pm   |  [Room 108](https://www.hdm-stuttgart.de/horst)  |
-| Lab       | Wednesday | 14:15 pm - 15:00 pm   |  [Room 108](https://www.hdm-stuttgart.de/horst)  |
+| Lab       | Wednesday | 13:20 pm - 14:05 pm   |  [Room 108](https://www.hdm-stuttgart.de/horst)  |
 
 
 ```{image} ../_static/img/room-108.png
