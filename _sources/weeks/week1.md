@@ -32,7 +32,7 @@ Download Slides: [📑](https://drive.google.com/file/d/11jh63a7vX49m9q3a9qJz0L8
 (practice)=
 ## Practice
 
-Data manipulation with pandas (Nr 3): [💻](../code/3-pandas-intro-short-c.ipynb)*
+Data manipulation with pandas (Nr 3): [💻](../code/3-pandas-intro-short-c.ipynb)
 
 ---
 
