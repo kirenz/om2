@@ -24,9 +24,8 @@
 (participate)=
 ## Participate
 
-Download Slides: [📑](https://drive.google.com/file/d/11IfR0Y7yiAxtKoUPG4Pz-8OcN9uhkX78/view?usp=sharing)
+Download Slides: [📑](https://drive.google.com/file/d/11jh63a7vX49m9q3a9qJz0L8scmPijLMf/view?usp=sharing)
 
-[📑](https://drive.google.com/file/d/11IfR0Y7yiAxtKoUPG4Pz-8OcN9uhkX78/view?usp=sharing)
 
 ---
 
