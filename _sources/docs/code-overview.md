@@ -12,7 +12,7 @@
 
 You should be able to:
 
-- Fit a decision tree model with train test split
+- Fit a decision tree model using train test split
 - Evaluate a decision tree model
 
 ```
