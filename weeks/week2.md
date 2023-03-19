@@ -8,7 +8,7 @@
 
 - [📚 Decision Trees, nr. 4 ](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 - [📚 Decision Trees, nr. 5 ](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
-- [📚 Regression with random forest, nr. 6 ](https://mlu-explain.github.io/random-forest/)
+
 
 
 ---
