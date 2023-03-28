@@ -26,7 +26,7 @@ You should be able to:
 
 ## Week 2
 
-- [💻 lab-trees: trees.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/tutorial/trees.ipynb)
+- [💻 lab-trees: trees.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/tutorial/trees.ipynb) (code blocks with comment `#HIDE CODE`: only output is relevant)
 
 - [💻 lab-trees: trees-handwritten.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/tutorial/trees-handwritten.ipynb)
 
@@ -42,3 +42,18 @@ You should be able to:
 
 
 ---
+
+## Week 3
+
+- [💻 lab-trees: model-gradientboosted.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/campaign/model-gradientboosted.ipynb)
+
+```{note}
+
+You should be able to:
+
+- Prepare the data for the model
+- Fit a random forest tree model 
+- Obtain feature importance
+- Evaluate the model (interpret accuracy, recall, precision, F1-Score)
+
+```
