@@ -17,7 +17,7 @@ For a more detailed semester overview, take a look at the [course-schedule](../d
 |	---	|	---	|	---	|	---	|	---	|	
 |	1	|	15.03.	|	Introduction	|	[📑](https://drive.google.com/file/d/11jh63a7vX49m9q3a9qJz0L8scmPijLMf/view?usp=sharing)	|	[📁](../weeks/week1.md)	|	
 |	2	|	22.03.	|	Decision Trees 1	|	[📑](https://drive.google.com/file/d/1-Ox-jFeNPPam4sxZzoI90L4hH_rq6bU9/view?usp=sharing)	|	[📁](../weeks/week2.md)	|	
-|	3	|	29.03.	|	Decision Trees 2	|		|		|	
+|	3	|	29.03.	|	Decision Trees 2	|	[📑](https://kirenz.github.io/lab-trees/campaign/campaign.html#/title-slide)	|	[📁](../weeks/week3.md)	|	
 |	4	|	05.04.	|	Deep Learning 1	|		|		|	
 |	5	|	12.04.	|	Deep Learning 2	|		|		|	
 |	6	|	19.04.	|	Deep Learning 3	|		|		|	
