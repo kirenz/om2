@@ -6,9 +6,11 @@
 (prepare)=
 ## Prepare
 
-None
+- [📚 The Random Forest Algorithm, nr. 6 ](https://mlu-explain.github.io/random-forest/)
 
----
+
+
+
 
 ---
 
@@ -17,10 +19,10 @@ None
 ## Participate
 
 
-Open this [Twitter setup tutorial](https://github.com/kirenz/twitter-tutorial) on GitHub.
+ Slides (online): [📑](https://kirenz.github.io/lab-trees/campaign/campaign.html#/title-slide)
 
 
----
+
 
 ---
 
@@ -28,15 +30,20 @@ Open this [Twitter setup tutorial](https://github.com/kirenz/twitter-tutorial) o
 (practice)=
 ## Practice
 
-💻 Application exercise: [Twitter API](../ae/ae-2-twitter-api.md)
+
+
+Go to the code overview: [🖥](../docs/code-overview.md)
 
 
 ---
 
 ---
+
 
 (perform)=
 ## Perform
+
+None
 
 
 ---
