@@ -1,6 +1,2 @@
 jupyter-book
-matplotlib
-numpy
-pandas
-altair
-scikit-learn
+sphinx-book-theme
