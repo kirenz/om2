@@ -47,7 +47,6 @@ You should be able to:
 
 - [💻 lab-trees: model-gradientboosted.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/campaign/model-gradientboosted.ipynb)
 
-
 ```{note}
 
 You should be able to:
