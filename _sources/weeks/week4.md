@@ -6,9 +6,9 @@
 (prepare)=
 ## Prepare
 
+- [📚 Sridharan & Purcell (2015). How Analytics Drives Customer Life-Cycle
+Management (nr. 10)](https://drive.google.com/file/d/1FviQh4Qyc9c-H4gxnYkX8-yijM_T_x3L/view?usp=sharing)
 
-
----
 
 ---
 
@@ -16,13 +16,7 @@
 (participate)=
 ## Participate
 
-
-You will need to install three modules (nltk, wordcloud and altair) in a Anaconda environment of your choice:
-
-
-```bash
-conda install nltk wordcloud altair
-```
+Slides (online): [📑](https://kirenz.github.io/slides/ml/ml-overview#/title-slide)
 
 
 ---
@@ -34,10 +28,6 @@ conda install nltk wordcloud altair
 ## Practice
 
 
-💻 Accept the invitation to application exercise Nr. 3 in Moodle: [💻 textmining](https://e-learning.hdm-stuttgart.de/moodle/mod/page/view.php?id=262127)
-
-
----
 
 ---
 
