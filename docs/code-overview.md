@@ -58,3 +58,19 @@ You should be able to:
 - Evaluate the model (interpret accuracy, recall, precision, F1-Score)
 
 ```
+
+---
+
+## Week 4
+
+[Complete the OpenAI-Setup](https://github.com/kirenz/open-ai-setup)
+
+```{note}
+
+You should be able to:
+
+- Use the OpenAI model API to generate images and text
+
+```
+
+---
