@@ -9,7 +9,7 @@
 - [📚 The Random Forest Algorithm, nr. 6 ](https://mlu-explain.github.io/random-forest/)
 
 
-
+- [📚 Precision, recall and F1 score](https://mlu-explain.github.io/precision-recall/)
 
 
 ---
