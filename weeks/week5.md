@@ -7,8 +7,16 @@
 ## Prepare
 
 
+*Excellent introduction to neural networks created by Grant Sanderson.* 
 
----
+What is a neural network? - Learn what are the neurons, why are there layers, and what is the math underlying it:
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Video: Relevant from start until 13:31**
+
 
 ---
 
@@ -17,35 +25,26 @@
 ## Participate
 
 
-[From data to Viz](https://www.data-to-viz.com/) leads you to the most appropriate graph for your data.
-
----
-
-Take a look at the [Altair example gallery](https://altair-viz.github.io/)
-
----
 
 
-Code overview: [🖥](../code/code-overview.md)
 
 
 
 
 ---
 
----
+
 
 
 (practice)=
 ## Practice
 
+Code overview: [🖥](../code/code-overview.md)
 
-Use this advertising data: "https://github.com/kirenz/datasets/blob/master/album_sales.csv" to create some visualizations.
 
-
----
 
 ---
+
 
 (perform)=
 ## Perform
