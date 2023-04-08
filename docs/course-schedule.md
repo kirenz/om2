@@ -10,7 +10,6 @@ This overview will be updated as the semester progresses.
 
 For a semester overview, take a look at the [course-overview](../docs/course-overview.md). 
 
-
 |	Week	|	Nr.	|	Date	|	Topic	|	Resources	|
 |	---	|	---	|	---	|	---	|	---	|
 |	1	|	1	|	15.03.	|	Google's Marketing Model	|	[📁](../weeks/week1.md)	|
@@ -20,3 +19,10 @@ For a semester overview, take a look at the [course-overview](../docs/course-ove
 |	2	|	5	|	22.03.	|	Decision Trees 2	|		|
 |	3	|	6	|	29.03.	|	The Random Forest Algorithm	|	[📁](../weeks/week3.md)	|
 |	3	|	7	|	29.03.	|	Classification with random forest 	|		|
+|	3	|	8	|	29.03.	|	Boosted tree classification	|		|
+|	3	|	9	|	29.03.	|	Boosted tree regression	|		|
+|	4	|	10	|	05.04.	|	How Analytics/ML drives Marketing	|	[📁](../weeks/week4.md)	|
+|	4	|	11	|	05.04.	|	Deep Learning (OpenAI)	|		|
+|	5	|	12	|	12.04.	|	Deep Learning	|	[📁](../weeks/week5.md)	|
+|	5	|	13	|	12.04.	|	Computer vision	|		|
+|	5	|	14	|	12.04.	|	Convolutional neural networks	|		|
