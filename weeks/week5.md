@@ -27,7 +27,7 @@ What is a neural network? - Learn what are the neurons, why are there layers, an
 
 
 
-
+Download slides: [📑](https://drive.google.com/file/d/1-1fCMnIrZYAQzAdKs_biGgtdrM9-Bsfz/view?usp=sharing)
 
 
 
