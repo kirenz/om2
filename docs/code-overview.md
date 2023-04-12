@@ -80,4 +80,8 @@ You should be able to:
 
 - [💻 lab-models: tf-example.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/tf-example.ipynb)
 - [💻 lab-models: fashion-mnist.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/fashion-mnist.ipynb)
+
+
+<!--
 - [💻 lab-models: cnn.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/cnn.ipynb)
+-->
