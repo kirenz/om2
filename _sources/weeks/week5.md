@@ -42,6 +42,10 @@ Download slides: [📑](https://drive.google.com/file/d/1-1fCMnIrZYAQzAdKs_biGgt
 Code overview: [🖥](../docs/code-overview.md)
 
 
+Open [HuggingFace-Setup](../docs/huggingface.md)
+
+[HuggingFace Models](https://github.com/kirenz/huggingface)
+
 
 ---
 
