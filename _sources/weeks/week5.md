@@ -39,7 +39,7 @@ Download slides: [📑](https://drive.google.com/file/d/1-1fCMnIrZYAQzAdKs_biGgt
 (practice)=
 ## Practice
 
-Code overview: [🖥](../code/code-overview.md)
+Code overview: [🖥](../docs/code-overview.md)
 
 
 
