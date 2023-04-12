@@ -44,7 +44,7 @@ Code overview: [🖥](../docs/code-overview.md)
 
 Open [HuggingFace-Setup](../docs/huggingface.md)
 
-
+[HuggingFace Models](https://github.com/kirenz/huggingface)
 
 
 ---
