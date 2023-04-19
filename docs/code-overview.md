@@ -100,5 +100,5 @@ You should be able to:
 
 - [🤗 huggingface: sentiment-pipeline](https://kirenz.github.io/huggingface/sentiment-analysis/sentiment-pipeline)
 
-- [🤗 huggingface: image-classification.ipynb](https://kirenz.github.io/huggingface/image-classification/image-classification.ipynb)
+- [💻 huggingface: image-classification.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/image-classification/image-classification.ipynb)
 
