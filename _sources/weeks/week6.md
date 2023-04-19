@@ -6,9 +6,7 @@
 (prepare)=
 ## Prepare
 
-None
-
----
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SZorAJ4I-sA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 
@@ -16,8 +14,10 @@ None
 (participate)=
 ## Participate
 
+Slides about Transformers (online): [📑](https://kirenz.github.io/huggingface/transformers/transformer-intuition.html#/title-slide)
 
-Streamlit GitHub-Repo: [🖥](https://github.com/kirenz/streamlit-app)
+
+
 
 ---
 
@@ -26,17 +26,17 @@ Streamlit GitHub-Repo: [🖥](https://github.com/kirenz/streamlit-app)
 ## Practice
 
 
-None
+Code overview: [🖥](../docs/code-overview.md)
+
 
 
 ---
 
----
 
 (perform)=
 ## Perform
 
-📄 [Homework 1 (see Moodle)](https://e-learning.hdm-stuttgart.de/moodle/mod/page/view.php?id=266397)
+None
 
 ---
 
