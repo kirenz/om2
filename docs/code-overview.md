@@ -85,3 +85,10 @@ You should be able to:
 <!--
 - [💻 lab-models: cnn.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/cnn.ipynb)
 -->
+
+---
+
+## Week 6
+
+- [💻 huggingface: image-classification.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/image-classification/image-classification.ipynb)
+
