@@ -25,4 +25,4 @@ For a semester overview, take a look at the [course-overview](../docs/course-ove
 |	4	|	11	|	05.04.	|	Deep Learning (OpenAI)	|		|
 |	5	|	12	|	12.04.	|	Deep Learning	|	[📁](../weeks/week5.md)	|
 |	5	|	13	|	12.04.	|	Computer vision	|		|
-|	5	|	14	|	12.04.	|	Convolutional neural networks	|		|
+|	6	|	14	|	19.04.	|	Transfromers & Hugging Face	|	[📁](../weeks/week6.md)	|
