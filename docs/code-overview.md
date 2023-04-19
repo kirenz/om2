@@ -90,5 +90,15 @@ You should be able to:
 
 ## Week 6
 
-- [💻 huggingface: image-classification.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/image-classification/image-classification.ipynb)
+- [🤗 huggingface: qa-pipeline](https://kirenz.github.io/huggingface/question-answering/qa-pipeline)
+
+- [🤗 huggingface: generation-pipeline](https://kirenz.github.io/huggingface/text-generation/generation-pipeline)
+
+- [💻 huggingface: tensorflow-gpt2.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/text-generation/tensorflow-gpt2.ipynb)
+
+- [🤗 huggingface: summarization-pipeline](https://kirenz.github.io/huggingface/text-summarization/summarization-pipeline)
+
+- [🤗 huggingface: sentiment-pipeline](https://kirenz.github.io/huggingface/sentiment-analysis/sentiment-pipeline)
+
+- [🤗 huggingface: image-classification.ipynb](https://kirenz.github.io/huggingface/image-classification/image-classification.ipynb)
 
