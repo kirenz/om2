@@ -10,13 +10,11 @@ None
 
 ---
 
----
-
 
 (participate)=
 ## Participate
 
-Slides: [📑](https://drive.google.com/file/d/1-aOfm8TauMIU2zWv8GMo_c_tD6UIV2Zc/view?usp=sharing)
+Slides: [📑](https://drive.google.com/file/d/1-PaXIIO0EyQltEg9wECCuj-31COvJ9_f/view?usp=sharing)
 
 ---
 
