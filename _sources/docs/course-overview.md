@@ -12,6 +12,7 @@ For a more detailed semester overview, take a look at the [course-schedule](../d
 
 <br>
 <br>
+
 |	Week	|	Date	|	Content	|	Slides	|	Materials	|	
 |	---	|	---	|	---	|	---	|	---	|	
 |	1	|	15.03.	|	Introduction	|	[📑](https://drive.google.com/file/d/11jh63a7vX49m9q3a9qJz0L8scmPijLMf/view?usp=sharing)	|	[📁](../weeks/week1.md)	|	
