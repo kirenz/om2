@@ -102,3 +102,6 @@ You should be able to:
 
 - [💻 huggingface: image-classification.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/image-classification/image-classification.ipynb)
 
+## Week 7
+
+- [💻 lab-clustering: k-means.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/k-means-c.ipynb)
