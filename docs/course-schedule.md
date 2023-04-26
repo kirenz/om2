@@ -10,6 +10,7 @@ This overview will be updated as the semester progresses.
 
 For a semester overview, take a look at the [course-overview](../docs/course-overview.md). 
 
+
 |	Week	|	Nr.	|	Date	|	Topic	|	Resources	|
 |	---	|	---	|	---	|	---	|	---	|
 |	1	|	1	|	15.03.	|	Google's Marketing Model	|	[📁](../weeks/week1.md)	|
@@ -26,3 +27,5 @@ For a semester overview, take a look at the [course-overview](../docs/course-ove
 |	5	|	12	|	12.04.	|	Deep Learning	|	[📁](../weeks/week5.md)	|
 |	5	|	13	|	12.04.	|	Computer vision	|		|
 |	6	|	14	|	19.04.	|	Transfromers & Hugging Face	|	[📁](../weeks/week6.md)	|
+|	7	|	15	|	26.04.	|	Clustering 	|	[📁](../weeks/week7.md)	|
+|	7	|	16	|	26.04.	|	K-Means clustering	|		|
