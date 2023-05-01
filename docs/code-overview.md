@@ -82,6 +82,17 @@ You should be able to:
 - [💻 lab-models: fashion-mnist.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/fashion-mnist.ipynb)
 
 
+
+```{note}
+
+You should be able to:
+
+- Define and compile a simple neural network
+- Train the neural network
+- Use the model to make a prediction
+
+```
+
 <!--
 - [💻 lab-models: cnn.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/cnn.ipynb)
 -->
@@ -94,14 +105,55 @@ You should be able to:
 
 - [🤗 huggingface: generation-pipeline](https://kirenz.github.io/huggingface/text-generation/generation-pipeline)
 
-- [💻 huggingface: tensorflow-gpt2.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/text-generation/tensorflow-gpt2.ipynb)
-
 - [🤗 huggingface: summarization-pipeline](https://kirenz.github.io/huggingface/text-summarization/summarization-pipeline)
 
 - [🤗 huggingface: sentiment-pipeline](https://kirenz.github.io/huggingface/sentiment-analysis/sentiment-pipeline)
 
+
+*optional (not relevant for e-exam):
+
+- [💻 huggingface: tensorflow-gpt2.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/text-generation/tensorflow-gpt2.ipynb)
+
 - [💻 huggingface: image-classification.ipynb](https://colab.research.google.com/github/kirenz/huggingface/blob/main/image-classification/image-classification.ipynb)
+
+```{note}
+
+You should be able to:
+
+- Use the transformers pipeline with the default model
+- Choose the correct task for your use case
+- Make inferences (apply the model to data)
+
+```
 
 ## Week 7
 
-- [💻 lab-clustering: k-means.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/k-means-c.ipynb)
+- [💻 lab-clustering: k-means-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/k-means-c.ipynb)
+
+
+```{note}
+
+You should be able to:
+
+- Prepare the data to perform cluster analysis
+- Use the K-Means algorithm
+- Visualize the result with Altair
+
+```
+
+## Week 8
+
+- [💻 lab-clustering: hierarchisch-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/hierarchisch-c.ipynb)
+
+- [💻 lab-clustering: hierarchical-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/hierarchical-c.ipynb)
+
+```{note}
+
+You should be able to:
+
+- Prepare the data to perform cluster analysis
+- Create a dendrogram
+- Perfrom hierarchical cluster analysis with ward
+- Visualize the result with Altair
+
+```
