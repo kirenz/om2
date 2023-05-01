@@ -29,3 +29,4 @@ For a semester overview, take a look at the [course-overview](../docs/course-ove
 |	6	|	14	|	19.04.	|	Transfromers & Hugging Face	|	[📁](../weeks/week6.md)	|
 |	7	|	15	|	26.04.	|	Clustering 	|	[📁](../weeks/week7.md)	|
 |	7	|	16	|	26.04.	|	K-Means clustering	|		|
+|	8	|	17	|	03.05.	|	Hierarchical clustering analysis	|	[📁](../weeks/week8.md)	|
