@@ -10,7 +10,6 @@ This overview will be updated as the semester progresses.
 
 For a semester overview, take a look at the [course-overview](../docs/course-overview.md). 
 
-
 |	Week	|	Nr.	|	Date	|	Topic	|	Resources	|
 |	---	|	---	|	---	|	---	|	---	|
 |	1	|	1	|	15.03.	|	Google's Marketing Model	|	[📁](../weeks/week1.md)	|
@@ -30,3 +29,8 @@ For a semester overview, take a look at the [course-overview](../docs/course-ove
 |	7	|	15	|	26.04.	|	Clustering 	|	[📁](../weeks/week7.md)	|
 |	7	|	16	|	26.04.	|	K-Means clustering	|		|
 |	8	|	17	|	03.05.	|	Hierarchical clustering analysis	|	[📁](../weeks/week8.md)	|
+|	8	|	18	|	03.05.	|	Analytics Summary	|	[📁](../weeks/week8.md)	|
+|	9	|	19	|	10.05.	|	Digital Customer Journey	|		|
+|	9	|	20	|	10.05.	|	See-Think-Do-Framework	|		|
+|	9	|	21	|	10.05.	|	Fallstudie Werbeinventar	|		|
+|	9	|	29	|	10.05.	|	Google Analytics	|		|
