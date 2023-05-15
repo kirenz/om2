@@ -10,20 +10,17 @@
 
 ---
 
----
 
 
 (participate)=
 ## Participate
 
-Slides: [📑](https://drive.google.com/file/d/10j_iwEcquhQMZtG3dFd1Hc8wmWpZKIkm/view?usp=sharing)
+[📑 See-Think-Do-Framework](https://docs.google.com/presentation/d/1grMoII17Y-8nUMQnbJfVS_xyBnom0us5wBU5fodac4M/export/pdf)
 
+[📑 Kennzahlensystem](https://docs.google.com/presentation/d/1evcXWNKDCT_NhHpORhrAN3FnObkk6ONzT6Fzxefbh1I/export/pdf)
 
+[📑 Facebook Kennzahlen](https://docs.google.com/presentation/d/1hljb0T3sA5yDMCvSXy_SAv3vgW3hSVasc7dT-wwynPE/export/pdf)
 
-[Social Media Template](https://docs.google.com/presentation/d/15I-qdXuIzqVQo0m7MPdd_u7YK0joMCWU6fHifHkPZHc/edit?usp=sharing)
-
-
-[Google Campaign URL Builder](https://ga-dev-tools.web.app/campaign-url-builder/)
 
 ---
 
@@ -31,12 +28,9 @@ Slides: [📑](https://drive.google.com/file/d/10j_iwEcquhQMZtG3dFd1Hc8wmWpZKIkm
 (practice)=
 ## Practice
 
-[Fallstudie Google Merchandise Pivot](https://docs.google.com/spreadsheets/d/1hsUE0PHJR-wmELI8y2XFgcYBFFwqKG4UjI3Y8odM6kU/edit?usp=share_link)
 
+[📑 Fallstudie Facebook](https://docs.google.com/spreadsheets/d/1yYPmuu3A9RVkRG_TLyh0uftBQI-PbQeWjj_jmNpWSM4/edit?usp=sharing)
 
-[Google Looker Studio](https://datastudio.google.com/)
-
----
 
 ---
 
