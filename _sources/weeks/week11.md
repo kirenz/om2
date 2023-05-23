@@ -8,7 +8,7 @@
 
 
 
----
+
 
 ---
 
@@ -16,7 +16,9 @@
 (participate)=
 ## Participate
 
-Appointments (book a timeslot in Moodle)
+
+[📑 Kennzahlensystem](https://docs.google.com/presentation/d/1evcXWNKDCT_NhHpORhrAN3FnObkk6ONzT6Fzxefbh1I/export/pdf)
+
 
 ---
 
@@ -25,7 +27,7 @@ Appointments (book a timeslot in Moodle)
 ## Practice
 
 
----
+[Facebook & Instagram Kampagnenanalyse](https://docs.google.com/spreadsheets/d/1iknTvUj8DiQFkgs64_eLz7TNHENr0mtd4jk9L7hetcU/edit?usp=sharing)
 
 ---
 

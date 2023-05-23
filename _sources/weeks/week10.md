@@ -17,7 +17,6 @@
 
 [📑 See-Think-Do-Framework](https://docs.google.com/presentation/d/1grMoII17Y-8nUMQnbJfVS_xyBnom0us5wBU5fodac4M/export/pdf)
 
-[📑 Kennzahlensystem](https://docs.google.com/presentation/d/1evcXWNKDCT_NhHpORhrAN3FnObkk6ONzT6Fzxefbh1I/export/pdf)
 
 [📑 Facebook Kennzahlen](https://docs.google.com/presentation/d/1hljb0T3sA5yDMCvSXy_SAv3vgW3hSVasc7dT-wwynPE/export/pdf)
 
@@ -32,6 +31,8 @@
 
 [📑 Fallstudie Facebook](https://docs.google.com/spreadsheets/d/1yYPmuu3A9RVkRG_TLyh0uftBQI-PbQeWjj_jmNpWSM4/edit?usp=sharing)
 
+
+*Optional:*
 
 [📑 Facebook Booklet](https://drive.google.com/file/d/1GpNYzn6feSlpo8wDA9FoTVA8Ev1KFHbn/view?usp=share_link)
 
