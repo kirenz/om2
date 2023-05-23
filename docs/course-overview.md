@@ -23,10 +23,10 @@ For a more detailed semester overview, take a look at the [course-schedule](../d
 |	6	|	19.04.	|	Deep Learning	|	[📑 🖥](https://kirenz.github.io/huggingface/transformers/transformer-intuition.html#/title-slide)	|	[📁](../weeks/week6.md)	|	
 |	7	|	26.04.	|	Clustering	|	[📑](https://drive.google.com/file/d/1-PaXIIO0EyQltEg9wECCuj-31COvJ9_f/view?usp=sharing)	|	[📁](../weeks/week7.md)	|	
 |	8	|	03.05.	|	Clustering / Summary	|	[📑](https://drive.google.com/file/d/1-bWxMvD5SXgt9bcx0cY1MeCdEYEBiEjo/view?usp=sharing)	|	[📁](../weeks/week8.md)	|	
-|	9	|	10.05.	|	Digital Analytics	|		|	[📁](../weeks/week9.md)	|	
-|	10	|	17.05.	|	Digital Analytics	|		|		|	
-|	11	|	24.05.	|	Digital Analytics	|		|		|	
+|	9	|	10.05.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week9.md)	|	
+|	10	|	17.05.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week10.md)	|	
+|	11	|	24.05.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week11.md)	|	
 |	13	|	14.06.	|	Digital Analytics	|		|		|	
-|	14	|	21.06.	|	Natural Language Processing	|		|		|	
-|	15	|	28.06.	|	Dashboards and UI	|		|		|	
-|	16	|	28.06.	|	Text Mining	|		|		|	
+|	14	|	21.06.	|	NLP & User Interface	|		|		|	
+|	15	|	28.06.	|	NLP & User Interface	|		|		|	
+|	16	|	28.06.	|	NLP & User Interface	|		|		|	
