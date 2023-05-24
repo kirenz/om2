@@ -39,6 +39,10 @@
 (perform)=
 ## Perform
 
+Application exercise 1:
+
+Obtain the Google Analytics 4 certification and upload it to Moodle (until 14. July 2023): [Google Analytics Certification](https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification)
+
 
 ---
 
