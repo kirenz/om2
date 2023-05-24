@@ -89,6 +89,7 @@ The final course grade will be calculated as follows:
 | Exam                  | 75%             |
 
 
+
 The final grade will be determined based on the following thresholds:
 
 |  Grade       | Final Course Grade |
