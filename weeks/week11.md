@@ -21,8 +21,9 @@
 
 
 
-[📑 Social Media Kennzahlen ](https://docs.google.com/presentation/d/1OAy9Qe3h0AlePEcYoeHF9qPLL7aGYvlhvvXsANrl9-g/edit?usp=sharing)
-[📑 Social Media Tamplate ](https://docs.google.com/presentation/d/15I-qdXuIzqVQo0m7MPdd_u7YK0joMCWU6fHifHkPZHc/edit?usp=sharing)
+[📑 Social Media Kennzahlen ](https://docs.google.com/presentation/d/1OAy9Qe3h0AlePEcYoeHF9qPLL7aGYvlhvvXsANrl9-g/edit?usp=sharing)  
+
+[📑 Social Media Template ](https://docs.google.com/presentation/d/15I-qdXuIzqVQo0m7MPdd_u7YK0joMCWU6fHifHkPZHc/edit?usp=sharing)
 
 ---
 
