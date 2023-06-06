@@ -10,34 +10,19 @@ None
 
 ---
 
----
+
 
 
 (participate)=
 ## Participate
 
+- [📑 UTM Tracking](https://docs.google.com/presentation/d/1_BBH1kD_i_bRA4Rcp8PY6TjDpx95lD6NbOAE-YfWxnY/export/pdf)
 
-*Excellent introduction to neural networks created by Grant Sanderson.* 
+- [📑 Google Ads Einrichtung](https://docs.google.com/presentation/d/174vsh7QP66P4Kdn6lJfjY66sm_IGHPJXqTcQDSeTFG0/export/pdf)
 
-What is a neural network? - Learn what are the neurons, why are there layers, and what is the math underlying it:
+- [📑 Google Ads - Werbung bei Google](https://docs.google.com/presentation/d/1O1mYT5HGBxd2ZOqGruXiwHozup_i5v2Tc740jHPg-5s/export/pdf)
 
-<br>
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Video: Relevant from start until 13:31**
-
-
-Slides (you can use the Download button in GitHub): 
-
-- [Machine Learning Overview](https://github.com/om2-ws22/website/blob/main/slides/ml-overview.pdf)
-
-- [OpenAI](https://github.com/om2-ws22/website/blob/main/slides/open-ai.pdf)
-
-
-GitHub-Repo: 
-
-- [OpenAI setup](https://github.com/kirenz/open-ai-setup)
+- [📑 Social Media Tools](https://docs.google.com/presentation/d/1PRpAkwZTA8CGufafmmxoOFgMW1JrfRFt75o1rau_UTI/export/pdf)
 
 ---
 
@@ -49,7 +34,6 @@ None
 
 ---
 
----
 
 (perform)=
 ## Perform
