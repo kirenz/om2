@@ -14,8 +14,11 @@
 (participate)=
 ## Participate
 
+Marketing Analytics Case: MINI
 
-- [Case MINI Clubman](https://drive.google.com/file/d/1dEJhWqUxAhbIUC3Ywq4IKYtkGKImCexS/view?usp=sharing)
+- [Case MINI Clubman](https://drive.google.com/file/d/11UX2XPiMeZsdQL908EDrbuEHbzGPQN85/view?usp=sharing)
+
+- [Briefing MINI Clubman](https://drive.google.com/file/d/1dEJhWqUxAhbIUC3Ywq4IKYtkGKImCexS/view?usp=sharing)
 
 ---
 
