@@ -6,7 +6,7 @@
 (prepare)=
 ## Prepare
 
-- Create the TensorFlow environment: [Anaconda environment](../docs/programming-environment.md).
+
 
 
 ---
@@ -14,21 +14,17 @@
 (participate)=
 ## Participate
 
+Marketing Analytics Case: MINI
 
-- [Slides 📑](https://drive.google.com/file/d/11ClBDFlLRnsln2z8g-Co9QUgyPV7e3QD/view?usp=sharing)
+- [Case MINI Clubman](https://drive.google.com/file/d/11UX2XPiMeZsdQL908EDrbuEHbzGPQN85/view?usp=sharing)
 
-
-- [32. Deep learning code](../code/32-tf-example.ipynb)
-
-- [33. Deep Learning image classification](../code/33-fashion-mnist.ipynb)
-
+- [Briefing MINI Clubman](https://drive.google.com/file/d/1dEJhWqUxAhbIUC3Ywq4IKYtkGKImCexS/view?usp=sharing)
 
 ---
 
 (practice)=
 ## Practice
 
-None
 
 
 ---
