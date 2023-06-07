@@ -32,6 +32,7 @@ Marketing Analytics Case: MINI
 
 - [Shell Codeplan](https://drive.google.com/file/d/11dEylO6P3VjpMv_k4iXSgJuaZVGMkptm/view?usp=sharing)
 
+
 ---
 
 (perform)=
