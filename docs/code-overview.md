@@ -130,6 +130,10 @@ You should be able to:
 
 - [💻 lab-clustering: k-means-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/k-means-c.ipynb)
 
+*Solution*
+
+- [💻 lab-clustering: k-means-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/k-means.ipynb)
+
 
 ```{note}
 
@@ -147,6 +151,12 @@ You should be able to:
 
 - [💻 lab-clustering: hierarchical-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/hierarchical-c.ipynb)
 
+*Solutions*
+
+- [💻 lab-clustering: hierarchisch-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/hierarchisch.ipynb)
+
+- [💻 lab-clustering: hierarchical-c.ipynb](https://colab.research.google.com/github/kirenz/lab-clustering/blob/main/tutorial/hierarchical.ipynb)
+
 ```{note}
 
 You should be able to:
@@ -157,3 +167,7 @@ You should be able to:
 - Visualize the result with Altair
 
 ```
+
+## Week 13
+
+tbd
