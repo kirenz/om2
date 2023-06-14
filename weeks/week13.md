@@ -43,7 +43,7 @@ Go to the code overview: [🖥](../docs/code-overview.md)
 
 
 
-** Marketing Analytics Use Cases**
+**Marketing Analytics Use Cases**
 
 
 - [Use Cases Template](https://docs.google.com/spreadsheets/d/1ahQKtQ_MsH7A3N2lJOXDBqwhl4PqXH71Z-q3kUV-wKQ/edit?usp=sharing)
