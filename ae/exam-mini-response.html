@@ -434,7 +434,7 @@ document.write(`
 <span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">GradientBoostingRegressor</span>
 
 <span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">classification_report</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">confusion_matrix</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">ConfusionMatrixDisplay</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">classification_report</span>
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">RocCurveDisplay</span>
@@ -532,10 +532,10 @@ document.write(`
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Wir erzeugen das y_label</span>
 <span class="n">y_label</span> <span class="o">=</span> <span class="s2">&quot;___&quot;</span>
 
-<span class="c1"># Wir nutzen alle unabhängigen Variablen in dem Modell (und entfernen die abhängige Variable)</span>
+<span class="c1"># Wir nutzen nur geeignete numerische Variablen in dem Modell</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">___</span>
 
-<span class="c1"># Wir erzeugen die unabhängige Variable</span>
+<span class="c1"># Wir erzeugen die abhängige Variable</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">___</span>
 </pre></div>
 </div>
@@ -646,7 +646,7 @@ document.write(`
 <ul class="simple">
 <li><p>4a) Modell auswählen</p>
 <ul>
-<li><p>Wählen Sie ein für Ihre Problemstellung geeignetes Modell aus (Sie wurden angewiesen, einen Random Forrest zu verwenden)</p></li>
+<li><p>Wählen Sie ein für Ihre Problemstellung geeignetes Modell aus (Sie wurden angewiesen, einen Random Forest zu verwenden)</p></li>
 <li><p>Speichern Sie das Modell unter der Bezeichnung <code class="docutils literal notranslate"><span class="pre">model</span></code></p></li>
 </ul>
 </li>
