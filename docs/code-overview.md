@@ -170,4 +170,4 @@ You should be able to:
 
 ## Week 13
 
-tbd
+- [Exam example MINI case resonse](../ae/exam-mini-response.ipynb)
