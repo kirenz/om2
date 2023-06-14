@@ -33,6 +33,8 @@ Go to the code overview: [🖥](../docs/code-overview.md)
 
 **Data**
 
+- [Ads response](https://raw.githubusercontent.com/kirenz/datasets/master/purchase.csv)
+
 - [Ads and test drives](https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv)
 
 - [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
