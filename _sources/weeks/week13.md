@@ -28,6 +28,8 @@ Marketing Analytics Case: MINI
 ## Practice
 
 
+[Marketing Use Case](https://kirenz.github.io/slides/ml/ml-overview#/life-cycle-and-analytics)
+
 Go to the code overview: [🖥](../docs/code-overview.md)
 
 
