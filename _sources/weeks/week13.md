@@ -40,6 +40,14 @@ Go to the code overview: [🖥](../docs/code-overview.md)
 - 2. [Ads and test drives](https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv)
 
 - 3. [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
+
+
+
+** Marketing Analytics Use Cases**
+
+
+- [Use Cases Template](https://docs.google.com/spreadsheets/d/1ahQKtQ_MsH7A3N2lJOXDBqwhl4PqXH71Z-q3kUV-wKQ/edit?usp=sharing)
+
 <!--
 
 - [Shell Jugendstudie Daten](https://drive.google.com/file/d/11f6gUB6wRpp_h5w_osVvk8Lw-_ueIUH0/view?usp=sharing)
