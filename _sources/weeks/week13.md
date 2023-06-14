@@ -28,6 +28,15 @@ Marketing Analytics Case: MINI
 ## Practice
 
 
+Go to the code overview: [🖥](../docs/code-overview.md)
+
+
+**Data**
+
+- [Ads and test drives](https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv)
+
+- [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
+<!--
 
 - [Shell Jugendstudie Daten](https://drive.google.com/file/d/11f6gUB6wRpp_h5w_osVvk8Lw-_ueIUH0/view?usp=sharing)
 
@@ -35,6 +44,7 @@ Marketing Analytics Case: MINI
 - [Shell Codeplan](https://drive.google.com/file/d/11dEylO6P3VjpMv_k4iXSgJuaZVGMkptm/view?usp=sharing)
 
 
+-->
 
 ---
 
