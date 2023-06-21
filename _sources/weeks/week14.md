@@ -10,13 +10,11 @@
 
 ---
 
----
 
 
 (participate)=
 ## Participate
 
-Optional appointments (book a [timeslot in Moodle](https://e-learning.hdm-stuttgart.de/moodle/mod/scheduler/view.php?id=270493&subpage=allappointments&offset=-1&what=view))
 
 ---
 
@@ -24,8 +22,18 @@ Optional appointments (book a [timeslot in Moodle](https://e-learning.hdm-stuttg
 (practice)=
 ## Practice
 
+**Marketing Analytics Use Cases**
 
----
+- [Use Cases Template](https://docs.google.com/spreadsheets/d/1ahQKtQ_MsH7A3N2lJOXDBqwhl4PqXH71Z-q3kUV-wKQ/edit?usp=sharing)
+
+
+**Dataset**
+
+- 2. [Ads and test drives](https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv)
+
+- 3. [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
+
+
 
 ---
 
