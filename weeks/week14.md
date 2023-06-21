@@ -35,7 +35,7 @@ Go to the code overview: [🖥](../docs/code-overview.md)
 
 - 3. [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
 
-
+LINK: 'https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv'
 
 ---
 
