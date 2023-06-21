@@ -37,9 +37,7 @@ Go to the code overview: [🖥](../docs/code-overview.md)
 
 - 1. [Ads response](https://raw.githubusercontent.com/kirenz/datasets/master/mini_response.csv)
 
-- 2. [Ads and test drives](https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv)
 
-- 3. [Ads and sales of car parts](https://raw.githubusercontent.com/kirenz/datasets/master/mini_ads.csv)
 
 
 
