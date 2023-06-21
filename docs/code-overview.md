@@ -171,3 +171,7 @@ You should be able to:
 ## Week 13
 
 - [Exam example MINI case response](../ae/exam-mini-response.ipynb)
+
+## Week 14
+
+- [Exam example MINI case test drives](../ae/exam-mini-test-drive.ipynb)
