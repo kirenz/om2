@@ -15,6 +15,8 @@
 (participate)=
 ## Participate
 
+Go to the code overview: [🖥](../docs/code-overview.md)
+
 
 ---
 
