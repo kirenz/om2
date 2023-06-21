@@ -172,7 +172,16 @@ You should be able to:
 
 - [Exam example MINI case response](../ae/exam-mini-response.ipynb)
 
+Solution
+
+- [Exam example MINI case response](../ae/exam-mini-response-solution.ipynb)
+
 
 ## Week 14
 
 - [Exam example MINI case test drives](../ae/exam-mini-test-drive.ipynb)
+
+
+Solution
+
+- [Exam example MINI case test drive](../ae/exam-mini-test-drive-solution.ipynb)
