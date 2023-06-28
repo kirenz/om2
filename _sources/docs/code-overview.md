@@ -65,13 +65,9 @@ You should be able to:
 
 [Complete the OpenAI-Setup](https://github.com/kirenz/open-ai-setup)
 
-```{note}
 
-You should be able to:
 
-- Use the OpenAI model API to generate images and text
-
-```
+Not relevant: Use the OpenAI model API to generate images and text
 
 ---
 
@@ -82,7 +78,9 @@ You should be able to:
 - [💻 lab-models: fashion-mnist.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/fashion-mnist.ipynb)
 
 
+Code is not relevant
 
+<!-- 
 ```{note}
 
 You should be able to:
@@ -91,7 +89,7 @@ You should be able to:
 - Train the neural network
 - Use the model to make a prediction
 
-```
+``` -->
 
 <!--
 - [💻 lab-models: cnn.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/cnn.ipynb)
@@ -185,3 +183,7 @@ Solution
 Solution
 
 - [Exam example MINI case test drive](../ae/exam-mini-test-drive-solution.ipynb)
+
+## Week 15
+
+

@@ -27,7 +27,7 @@ For a more detailed semester overview, take a look at the [course-schedule](../d
 |	10	|	17.05.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week10.md)	|	
 |	11	|	24.05.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week11.md)	|	
 |	12	|	07.06.	|	Digital Analytics	|	See weekly overview	|	[📁](../weeks/week12.md)	|	
-|	13	|	14.06.	|	Marketing Analytics	|		|		|	
-|	14	|	21.06.	|	Marketing Analytics	|		|		|	
-|	15	|	28.06.	|	Marketing Analytics	|		|		|	
+|	13	|	14.06.	|	Marketing Analytics	|	See weekly overview	|	[📁](../weeks/week13.md)	|	
+|	14	|	21.06.	|	Marketing Analytics	|	See weekly overview	|	[📁](../weeks/week14.md)	|	
+|	15	|	28.06.	|	Marketing Analytics	|	See weekly overview	|	[📁](../weeks/week15.md)	|	
 											
