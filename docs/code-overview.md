@@ -188,4 +188,6 @@ Solution
 
 - [Exam example MINI clustering](../ae/exam-mini-clustering.ipynb)
 
+Solution
 
+- [Exam example MINI clustering](../ae/exam-mini-clustering-solution.ipynb)
