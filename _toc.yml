@@ -23,3 +23,4 @@ parts:
       - file: weeks/week12.md
       - file: weeks/week13.md
       - file: weeks/week14.md
+      - file: weeks/week15.md
