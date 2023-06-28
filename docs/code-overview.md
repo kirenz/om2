@@ -31,6 +31,8 @@ You should be able to:
 - [💻 lab-trees: trees-handwritten.ipynb](https://colab.research.google.com/github/kirenz/lab-trees/blob/main/tutorial/trees-handwritten.ipynb)
 
 
+*Note: we will use structured data (i.e. a pandas dataframe and not images) in the exam*
+
 ```{note}
 
 You should be able to:
@@ -66,7 +68,6 @@ You should be able to:
 [Complete the OpenAI-Setup](https://github.com/kirenz/open-ai-setup)
 
 
-
 Not relevant: Use the OpenAI model API to generate images and text
 
 ---
@@ -78,7 +79,7 @@ Not relevant: Use the OpenAI model API to generate images and text
 - [💻 lab-models: fashion-mnist.ipynb](https://colab.research.google.com/github/kirenz/lab-models/blob/main/ann/fashion-mnist.ipynb)
 
 
-Code is not relevant
+TensorFlow code is not relevant
 
 <!-- 
 ```{note}
@@ -118,9 +119,8 @@ You should be able to:
 
 You should be able to:
 
-- Use the transformers pipeline with the default model
-- Choose the correct task for your use case
-- Make inferences (apply the model to data)
+- Choose the right transformers pipeline for a specific use case
+- Interpret the results from your model 
 
 ```
 
@@ -185,5 +185,7 @@ Solution
 - [Exam example MINI case test drive](../ae/exam-mini-test-drive-solution.ipynb)
 
 ## Week 15
+
+- [Exam example MINI clustering](../ae/exam-mini-clustering.ipynb)
 
 
