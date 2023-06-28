@@ -357,22 +357,13 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten">1) Daten</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-importieren">Daten importieren</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-transformieren">Daten transformieren</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-fur-clustering-vorbereiten">Daten für Clustering vorbereiten</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse">2) Analyse</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskriptive-analyse">Deskriptive Analyse</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#explorative-analyse">3) Explorative Analyse</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-splitten">Daten splitten</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-fur-clustering-vorbereiten">Daten für Clustering vorbereiten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#explorative-analyse">2) Explorative Analyse</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model">4) Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modell-auswahlen">Modell auswählen</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#training">Training</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-des-modells">Evaluation des Modells</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clustering">3) Clustering</a></li>
 </ul>
             </nav>
         </div>
@@ -458,125 +449,14 @@ document.write(`
 </div>
 <p>Verschaffen Sie sich eine Übersicht über die Daten:</p>
 </section>
-<section id="daten-transformieren">
-<h3>Daten transformieren<a class="headerlink" href="#daten-transformieren" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>1a) kategoriale Variablen:</p>
-<ul>
-<li><p>Erstellen Sie eine Liste, in der alle kategorialen Variablen aufgeführt werden</p></li>
-<li><p>Nennen Sie die Liste <code class="docutils literal notranslate"><span class="pre">list_cat</span></code></p></li>
-</ul>
-</li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<ul class="simple">
-<li><p>1b) Führen Sie mit Hilfe von Pandas die Datentransformation für die kategoriale Variablen durch (Umwandeln in “category”)</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 <section id="daten-fur-clustering-vorbereiten">
-<h3>Daten für Clustering vorbereiten<a class="headerlink" href="#daten-fur-clustering-vorbereiten" title="Permalink to this heading">#</a></h3>
-<p>Sie sollen eine Cluster-Analyse durchführen um Muster in den Daten zu erkennen.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Wir erzeugen das y_label</span>
-<span class="n">y_label</span> <span class="o">=</span> <span class="s2">&quot;___&quot;</span>
-
-<span class="c1"># Wir nutzen nur geeignete unabhängige Variablen in dem Modell</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">___</span>
-
-<span class="c1"># Wir erzeugen die abhängige Variable</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">___</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="analyse">
-<h2>2) Analyse<a class="headerlink" href="#analyse" title="Permalink to this heading">#</a></h2>
-<section id="deskriptive-analyse">
-<h3>Deskriptive Analyse<a class="headerlink" href="#deskriptive-analyse" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>2a) Statistische Kennzahlen</p>
-<ul>
-<li><p>Erstellen Sie mit Pandas eine Tabelle mit statistischen Kennzahlen für die numerischen Variablen</p></li>
-<li><p>Speichern Sie das Ergebnis als <code class="docutils literal notranslate"><span class="pre">df_stats</span></code></p></li>
-</ul>
-</li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Lassen Sie die Tabelle anzeigen:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-
-<span class="n">df_stats</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
+<h2>Daten für Clustering vorbereiten<a class="headerlink" href="#daten-fur-clustering-vorbereiten" title="Permalink to this heading">#</a></h2>
+<p>Führen Sie eine K-Means-Cluster-Analyse durch. Verwenden Sie dafür die Variablen “exposure” und “rating”.</p>
 <section id="explorative-analyse">
-<h3>3) Explorative Analyse<a class="headerlink" href="#explorative-analyse" title="Permalink to this heading">#</a></h3>
+<h3>2) Explorative Analyse<a class="headerlink" href="#explorative-analyse" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>3a) Erzeugen Sie eine Abbildung, in welcher Sie den Zusammenhang zwischen zwei numerischen Variablen untersuchen. Wählen Sie eine geeignete Darstellungsform, zeigen Sie das Plot und interpretieren Sie das Ergebnis.</p></li>
+<li><p>3a) Erzeugen Sie eine Abbildung, in welcher Sie den Zusammenhang zwischen den beiden Variablen darstellen. Wählen Sie eine geeignete Darstellungsform.</p></li>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -615,109 +495,10 @@ document.write(`
 </div>
 </div>
 </section>
-<section id="daten-splitten">
-<h3>Daten splitten<a class="headerlink" href="#daten-splitten" title="Permalink to this heading">#</a></h3>
-<p>Wir führen den Datensplit für die spätere Modellierung durch (keine Änderungen an dem Code vornehmem).</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">random_state</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
-</section>
-<section id="model">
-<h2>4) Model<a class="headerlink" href="#model" title="Permalink to this heading">#</a></h2>
-<section id="modell-auswahlen">
-<h3>Modell auswählen<a class="headerlink" href="#modell-auswahlen" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>4a) Modell auswählen</p>
-<ul>
-<li><p>Wählen Sie ein für Ihre Problemstellung geeignetes Modell aus (Sie wurden angewiesen, einen Gradient Boosted Tree zu verwenden)</p></li>
-<li><p>Speichern Sie das Modell unter der Bezeichnung <code class="docutils literal notranslate"><span class="pre">model</span></code></p></li>
-</ul>
-</li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="training">
-<h3>Training<a class="headerlink" href="#training" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>4b) Führen Sie das Modell-Training durch</p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="evaluation-des-modells">
-<h3>Evaluation des Modells<a class="headerlink" href="#evaluation-des-modells" title="Permalink to this heading">#</a></h3>
-<ul class="simple">
-<li><p>4e) Führen Sie die Modellvorhersage durch und speichern Sie das Ergebnis mit der Bezeichnung <code class="docutils literal notranslate"><span class="pre">y_pred</span></code></p></li>
-</ul>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Ausgabe von <code class="docutils literal notranslate"><span class="pre">y_pred</span></code></p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-
-<span class="n">y_pred</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Nehmen Sie keine Änderungen an dieser Zelle vor</span>
-</pre></div>
-</div>
-</div>
-</div>
-<ul class="simple">
-<li><p>4f) Führen Sie eine ausführliche Evaluierung des Modells durch und interpretieren Sie die Ergebnisse</p></li>
-</ul>
+<section id="clustering">
+<h2>3) Clustering<a class="headerlink" href="#clustering" title="Permalink to this heading">#</a></h2>
+<p>Führen Sie die Cluster-Analyse durch:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
@@ -734,7 +515,6 @@ document.write(`
 </div>
 </div>
 <p>Glückwunsch! Dies war die letzte Aufgabe in dem Notebook.</p>
-</section>
 </section>
 </section>
 
@@ -784,22 +564,13 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten">1) Daten</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-importieren">Daten importieren</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-transformieren">Daten transformieren</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-fur-clustering-vorbereiten">Daten für Clustering vorbereiten</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse">2) Analyse</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deskriptive-analyse">Deskriptive Analyse</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#explorative-analyse">3) Explorative Analyse</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-splitten">Daten splitten</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#daten-fur-clustering-vorbereiten">Daten für Clustering vorbereiten</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#explorative-analyse">2) Explorative Analyse</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model">4) Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modell-auswahlen">Modell auswählen</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#training">Training</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-des-modells">Evaluation des Modells</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#clustering">3) Clustering</a></li>
 </ul>
   </nav></div>
 
