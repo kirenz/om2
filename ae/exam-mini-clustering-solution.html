@@ -61,7 +61,7 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'ae/exam-mini-clustering';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ae/exam-mini-clustering-solution';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -232,7 +232,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://colab.research.google.com/github/kirenz/om2/blob/main/ae/exam-mini-clustering.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/kirenz/om2/blob/main/ae/exam-mini-clustering-solution.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onColab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -263,7 +263,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/ae/exam-mini-clustering.ipynb" target="_blank"
+      <li><a href="../_sources/ae/exam-mini-clustering-solution.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -443,11 +443,113 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">LINK</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/kirenz/datasets/master/mini_test_drives.csv&quot;</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">LINK</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <p>Verschaffen Sie sich eine Übersicht über die Daten:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>campaign</th>
+      <th>spendings</th>
+      <th>test_drives</th>
+      <th>exposure</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>10.256</td>
+      <td>330</td>
+      <td>43</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>985.685</td>
+      <td>120</td>
+      <td>28</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1445.563</td>
+      <td>360</td>
+      <td>35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1188.193</td>
+      <td>270</td>
+      <td>33</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>574.513</td>
+      <td>220</td>
+      <td>44</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 200 entries, 0 to 199
+Data columns (total 5 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   campaign     200 non-null    int64  
+ 1   spendings    200 non-null    float64
+ 2   test_drives  200 non-null    int64  
+ 3   exposure     200 non-null    int64  
+ 4   rating       200 non-null    int64  
+dtypes: float64(1), int64(4)
+memory usage: 7.9 KB
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="daten-fur-clustering-vorbereiten">
@@ -460,6 +562,323 @@ document.write(`
 </div>
 </div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s1">&#39;exposure&#39;</span><span class="p">,</span> <span class="s1">&#39;rating&#39;</span><span class="p">]]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">X_std</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="n">X_std</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([[ 1.26645653,  2.32074007],
+       [ 0.04085344,  0.16525394],
+       [ 0.61280155,  0.16525394],
+       [ 0.4493878 ,  0.16525394],
+       [ 1.3481634 , -1.27173682],
+       [-0.69450842, -1.27173682],
+       [-0.61280155, -4.14571834],
+       [-0.4493878 ,  1.6022447 ],
+       [-0.53109467,  0.16525394],
+       [ 1.02133591,  0.16525394],
+       [ 0.36768093,  0.16525394],
+       [-0.61280155, -3.42722296],
+       [-0.28597406,  0.88374932],
+       [ 0.85792217, -0.55324144],
+       [-0.28597406,  0.16525394],
+       [-0.20426718, -1.27173682],
+       [ 0.61280155, -1.27173682],
+       [ 0.69450842,  0.88374932],
+       [-0.04085344,  0.88374932],
+       [ 0.4493878 ,  0.88374932],
+       [ 0.4493878 ,  0.16525394],
+       [ 0.04085344, -0.55324144],
+       [ 0.20426718,  1.6022447 ],
+       [ 0.53109467,  0.16525394],
+       [ 1.75669777,  0.16525394],
+       [ 1.02133591,  0.88374932],
+       [-0.61280155, -1.9902322 ],
+       [ 1.18474966,  0.16525394],
+       [ 0.61280155,  0.88374932],
+       [-1.59328402, -0.55324144],
+       [ 1.75669777,  0.16525394],
+       [-0.69450842,  0.88374932],
+       [ 1.18474966, -0.55324144],
+       [-1.75669777,  0.16525394],
+       [ 0.69450842, -0.55324144],
+       [ 0.36768093,  0.16525394],
+       [ 0.04085344, -0.55324144],
+       [-0.20426718,  0.88374932],
+       [ 0.53109467,  0.88374932],
+       [-0.53109467, -0.55324144],
+       [ 0.53109467,  0.16525394],
+       [ 2.90059399,  0.16525394],
+       [ 0.28597406,  0.16525394],
+       [-0.20426718,  0.16525394],
+       [ 1.18474966,  0.16525394],
+       [ 0.77621529,  0.16525394],
+       [-0.20426718,  0.88374932],
+       [-0.12256031,  0.16525394],
+       [ 0.93962904,  0.16525394],
+       [ 1.51157715,  0.16525394],
+       [ 0.69450842, -0.55324144],
+       [-1.26645653, -1.9902322 ],
+       [-2.08352526,  0.88374932],
+       [ 0.12256031,  0.88374932],
+       [ 0.4493878 ,  0.88374932],
+       [ 0.04085344,  0.16525394],
+       [-1.42987028, -0.55324144],
+       [ 0.85792217,  0.16525394],
+       [-0.69450842, -1.9902322 ],
+       [-1.18474966, -0.55324144],
+       [ 0.20426718,  0.16525394],
+       [ 0.85792217,  0.88374932],
+       [-0.4493878 ,  0.88374932],
+       [-0.36768093, -0.55324144],
+       [-0.4493878 ,  1.6022447 ],
+       [-0.61280155,  0.16525394],
+       [-0.77621529, -0.55324144],
+       [ 0.77621529,  0.16525394],
+       [-0.93962904,  0.88374932],
+       [ 0.36768093,  0.88374932],
+       [-0.12256031, -1.27173682],
+       [ 2.08352526,  1.6022447 ],
+       [ 0.04085344,  0.16525394],
+       [ 0.36768093,  0.16525394],
+       [-0.28597406,  0.16525394],
+       [ 0.77621529, -0.55324144],
+       [ 0.20426718,  0.88374932],
+       [-0.69450842,  0.16525394],
+       [ 1.59328402, -0.55324144],
+       [-0.4493878 , -1.27173682],
+       [-1.42987028,  0.88374932],
+       [-2.16523213, -1.9902322 ],
+       [-2.16523213, -0.55324144],
+       [ 0.93962904, -0.55324144],
+       [-1.59328402, -1.27173682],
+       [ 0.85792217,  0.16525394],
+       [ 0.61280155, -1.27173682],
+       [ 1.02133591, -1.27173682],
+       [-0.4493878 ,  0.16525394],
+       [-0.04085344,  0.88374932],
+       [ 0.28597406, -0.55324144],
+       [-0.69450842,  0.16525394],
+       [-0.28597406,  1.6022447 ],
+       [-2.16523213,  0.16525394],
+       [ 0.85792217,  0.88374932],
+       [-0.12256031, -0.55324144],
+       [-1.3481634 , -0.55324144],
+       [ 0.53109467, -0.55324144],
+       [ 2.24693901,  0.16525394],
+       [-1.83840464,  0.16525394],
+       [ 0.53109467, -0.55324144],
+       [ 0.77621529,  1.6022447 ],
+       [-1.18474966,  0.88374932],
+       [-0.36768093, -0.55324144],
+       [ 2.16523213, -0.55324144],
+       [-0.77621529,  0.16525394],
+       [-2.08352526,  0.16525394],
+       [-1.3481634 , -0.55324144],
+       [ 0.20426718,  0.88374932],
+       [-0.4493878 ,  0.16525394],
+       [ 0.69450842, -0.55324144],
+       [ 0.77621529,  0.88374932],
+       [-1.51157715, -2.70872758],
+       [-2.08352526,  0.16525394],
+       [-1.26645653,  0.88374932],
+       [-1.83840464,  1.6022447 ],
+       [-1.10304278,  0.16525394],
+       [-0.61280155, -1.27173682],
+       [ 2.41035275, -0.55324144],
+       [-0.69450842,  0.88374932],
+       [ 0.61280155,  0.16525394],
+       [-0.4493878 , -1.27173682],
+       [-0.93962904,  0.16525394],
+       [ 2.08352526,  0.16525394],
+       [-1.92011151, -0.55324144],
+       [ 0.12256031, -0.55324144],
+       [ 1.26645653,  0.16525394],
+       [-0.12256031,  0.16525394],
+       [ 0.04085344,  0.16525394],
+       [ 0.77621529,  0.88374932],
+       [ 0.36768093, -1.27173682],
+       [ 0.53109467,  0.16525394],
+       [ 0.20426718,  0.16525394],
+       [-1.02133591,  0.16525394],
+       [-0.36768093,  0.16525394],
+       [ 0.28597406,  0.88374932],
+       [-0.53109467, -1.27173682],
+       [ 0.04085344, -4.14571834],
+       [-0.77621529,  0.16525394],
+       [ 0.04085344,  0.16525394],
+       [ 0.77621529,  0.88374932],
+       [-0.12256031, -0.55324144],
+       [ 0.20426718,  0.88374932],
+       [-1.42987028,  0.16525394],
+       [-0.53109467,  0.16525394],
+       [-0.77621529,  1.6022447 ],
+       [-1.10304278,  0.16525394],
+       [ 0.85792217,  0.16525394],
+       [ 0.69450842, -0.55324144],
+       [ 0.36768093,  0.16525394],
+       [-1.51157715, -1.27173682],
+       [ 0.93962904, -1.27173682],
+       [-0.28597406,  0.16525394],
+       [ 1.42987028,  0.16525394],
+       [-1.18474966,  0.88374932],
+       [-0.85792217, -0.55324144],
+       [ 0.36768093,  0.16525394],
+       [-0.36768093, -0.55324144],
+       [-2.24693901, -0.55324144],
+       [ 0.61280155, -1.27173682],
+       [-0.12256031, -0.55324144],
+       [-0.69450842, -0.55324144],
+       [-0.12256031,  0.16525394],
+       [ 2.08352526,  0.88374932],
+       [ 0.12256031,  0.88374932],
+       [ 0.04085344,  0.16525394],
+       [-0.85792217, -0.55324144],
+       [-0.12256031,  0.88374932],
+       [ 1.18474966,  0.88374932],
+       [-0.85792217, -0.55324144],
+       [ 0.69450842,  0.88374932],
+       [ 1.42987028,  0.16525394],
+       [-0.61280155,  0.16525394],
+       [-1.02133591,  0.16525394],
+       [ 0.04085344,  0.88374932],
+       [-0.04085344, -0.55324144],
+       [-0.85792217,  0.88374932],
+       [ 0.36768093,  0.88374932],
+       [ 1.51157715,  1.6022447 ],
+       [ 1.59328402,  0.88374932],
+       [-0.69450842, -4.14571834],
+       [-0.4493878 ,  0.88374932],
+       [ 2.24693901,  1.6022447 ],
+       [ 0.28597406, -1.27173682],
+       [ 0.93962904,  0.88374932],
+       [-0.53109467, -0.55324144],
+       [ 0.69450842, -0.55324144],
+       [-0.53109467,  0.16525394],
+       [ 1.3481634 ,  0.16525394],
+       [-0.04085344,  0.16525394],
+       [-0.93962904, -0.55324144],
+       [ 0.4493878 , -0.55324144],
+       [ 0.4493878 ,  0.88374932],
+       [-0.53109467,  0.16525394],
+       [ 0.61280155,  1.6022447 ],
+       [-0.12256031,  0.16525394],
+       [-1.10304278, -0.55324144],
+       [ 0.53109467, -0.55324144],
+       [-1.3481634 ,  0.88374932],
+       [-0.61280155,  1.6022447 ]])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_std</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">X_std</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;exposure&#39;</span><span class="p">,</span><span class="s1">&#39;rating&#39;</span><span class="p">])</span>
+<span class="n">df_std</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>exposure</th>
+      <th>rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.266457</td>
+      <td>2.320740</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.040853</td>
+      <td>0.165254</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.612802</td>
+      <td>0.165254</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.449388</td>
+      <td>0.165254</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.348163</td>
+      <td>-1.271737</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>-0.122560</td>
+      <td>0.165254</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>-1.103043</td>
+      <td>-0.553241</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>0.531095</td>
+      <td>-0.553241</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>-1.348163</td>
+      <td>0.883749</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>-0.612802</td>
+      <td>1.602245</td>
+    </tr>
+  </tbody>
+</table>
+<p>200 rows × 2 columns</p>
+</div></div></div>
+</div>
 <section id="explorative-analyse">
 <h3>2) Explorative Analyse<a class="headerlink" href="#explorative-analyse" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
@@ -468,7 +887,19 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
+<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_std</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">()</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+    <span class="n">x</span><span class="o">=</span><span class="s1">&#39;exposure&#39;</span><span class="p">,</span>
+    <span class="n">y</span><span class="o">=</span><span class="s1">&#39;rating&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;VegaLite 4 object&gt;
+
+If you see this message, it means the renderer has not been properly enabled
+for the frontend that you are using. For more information, see
+https://altair-viz.github.io/user_guide/troubleshooting.html
 </pre></div>
 </div>
 </div>
@@ -508,11 +939,129 @@ document.write(`
 <p>Führen Sie die Cluster-Analyse durch:</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># YOUR CODE HERE</span>
-<span class="k">raise</span> <span class="ne">NotImplementedError</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">kmeans</span> <span class="o">=</span> <span class="n">KMeans</span><span class="p">(</span><span class="n">n_clusters</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">n_init</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">kmeans</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_std</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><style>#sk-container-id-1 {color: black;background-color: white;}#sk-container-id-1 pre{padding: 0;}#sk-container-id-1 div.sk-toggleable {background-color: white;}#sk-container-id-1 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-1 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-1 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-1 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-1 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-1 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-1 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-1 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-1 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-1 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-1 div.sk-item {position: relative;z-index: 1;}#sk-container-id-1 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-1 div.sk-item::before, #sk-container-id-1 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-1 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-1 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-1 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-1 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-1 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-1 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-1 div.sk-label-container {text-align: center;}#sk-container-id-1 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-1 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>KMeans(n_clusters=4, n_init=10)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-1" type="checkbox" checked><label for="sk-estimator-id-1" class="sk-toggleable__label sk-toggleable__label-arrow">KMeans</label><div class="sk-toggleable__content"><pre>KMeans(n_clusters=4, n_init=10)</pre></div></div></div></div></div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y_kmeans</span> <span class="o">=</span> <span class="n">kmeans</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_std</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_std</span><span class="p">[</span><span class="s1">&#39;cluster&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">y_kmeans</span>
+<span class="n">df_std</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>exposure</th>
+      <th>rating</th>
+      <th>cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1.266457</td>
+      <td>2.320740</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>0.040853</td>
+      <td>0.165254</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.612802</td>
+      <td>0.165254</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>0.449388</td>
+      <td>0.165254</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1.348163</td>
+      <td>-1.271737</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>195</th>
+      <td>-0.122560</td>
+      <td>0.165254</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>196</th>
+      <td>-1.103043</td>
+      <td>-0.553241</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>197</th>
+      <td>0.531095</td>
+      <td>-0.553241</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>198</th>
+      <td>-1.348163</td>
+      <td>0.883749</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>199</th>
+      <td>-0.612802</td>
+      <td>1.602245</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+<p>200 rows × 3 columns</p>
+</div></div></div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
