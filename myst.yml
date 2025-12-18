@@ -1,0 +1,48 @@
+version: 1
+project:
+  title: Big Data & Web Analytics
+  authors:
+    - name: Jan Kirenz
+  github: kirenz/om2
+  thebe:
+    binder:
+      repo: kirenz/om2
+      provider: github
+      url: ''
+      ref: main
+  bibliography:
+    - _bibliography/references.bib
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: exports/book.pdf
+  toc:
+    - file: docs/course-overview.md
+    - title: Course information
+      children:
+        - file: docs/course-schedule.md
+        - file: docs/code-overview.md
+        - file: docs/course-syllabus.md
+        - file: docs/course-support.md
+    - title: Weekly materials
+      children:
+        - file: weeks/week1.md
+        - file: weeks/week2.md
+        - file: weeks/week3.md
+        - file: weeks/week4.md
+        - file: weeks/week5.md
+        - file: weeks/week6.md
+        - file: weeks/week7.md
+        - file: weeks/week8.md
+        - file: weeks/week9.md
+        - file: weeks/week10.md
+        - file: weeks/week11.md
+        - file: weeks/week12.md
+        - file: weeks/week13.md
+        - file: weeks/week14.md
+        - file: weeks/week15.md
+site:
+  options:
+    logo: logo.png
+    folders: true
+  template: book-theme
